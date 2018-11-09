@@ -1,0 +1,14 @@
+{
+  "name": "get-computername",
+  "version": "2.0.0",
+  "description": "Returns a computername when given a username",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John E. Anderson III",
+  "license": "ISC",
+  "dependencies": {
+    "mssql": "^4.1.0"
+  }
+}
