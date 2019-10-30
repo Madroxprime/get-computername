@@ -9,7 +9,7 @@ let connection = new sql.connect(config, function(err){
     sql.globalConnection = connection;
 });
 
-
+//I never did a lot with MSsql node stuff, maybe find a reason to use this more so i can get some practice. 
 function findComputerName(options,cb){
 
     let names = [];
