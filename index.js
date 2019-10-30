@@ -1,5 +1,6 @@
 const sql = require('mssql');
 
+//might be worth keeping around for stuff. 
 const config = require.main.require('./config/mssql');
 let connection = new sql.connect(config, function(err){
     if(err){
